@@ -1014,7 +1014,7 @@ export default function DashboardPage() {
                   {/* Preset Image Selector */}
                   <div className="form-group">
                     <label>Imagen del Vehículo (Presets)</label>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '8px', marginTop: '6px' }}>
+                    <div className="preset-images-grid">
                       {imagePresets.map((preset) => (
                         <div 
                           key={preset.path}
