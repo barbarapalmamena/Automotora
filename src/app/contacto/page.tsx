@@ -334,7 +334,7 @@ function ContactoContent() {
                       Simulador de Financiamiento Integrado
                     </h3>
                     
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '15px' }}>
+                    <div className="form-two-cols" style={{ marginBottom: '15px' }}>
                       {/* Pie slider */}
                       <div className="search-group">
                         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px', marginBottom: '4px' }}>

@@ -262,7 +262,7 @@ export default function Home() {
           <h2 className="section-title">Haz que tu decisión sea más sencilla</h2>
         </div>
 
-        <div className="categories-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
+        <div className="values-grid">
           <div className="glass-card" style={{ padding: '40px 30px', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '15px' }}>
             <div style={{ fontSize: '40px' }}>🛡️</div>
             <h3 style={{ fontSize: '20px', fontWeight: '700' }}>Garantía Ética de 7 Días</h3>
