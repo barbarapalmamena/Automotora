@@ -2762,6 +2762,34 @@ button, input, select, textarea {
   }
 }
 
+@media (max-width: 600px) {
+  .admin-car-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .admin-car-info {
+    width: 100%;
+  }
+
+  .admin-car-actions {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .admin-car-actions > div {
+    justify-content: space-between;
+  }
+
+  .admin-car-actions button {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 
 
 
