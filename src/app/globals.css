@@ -2683,6 +2683,7 @@ button, input, select, textarea {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
+  min-width: 900px;
 }
 
 .payments-table th {
@@ -2746,6 +2747,19 @@ button, input, select, textarea {
 .payment-status-pendiente {
   color: var(--accent);
   font-weight: 600;
+}
+
+.preset-images-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 6px;
+}
+
+@media (max-width: 480px) {
+  .preset-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 
